@@ -1,0 +1,54 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+table#main {
+    height: 100%;
+    td {
+        vertical-align: top;
+
+    }
+}
+
+span {
+    display: block;
+    //box-sizing : border-box;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 2px;
+    border: 1px solid #999999;
+    padding-left: 4px;
+    cursor: pointer;
+    &:hover {
+        background-color: #cccccc;
+    }
+    &.hidden {
+        display: none;
+    }
+}
+
+div.list, div.select {
+    overflow: hidden;
+    padding: 2px;
+    display : block;
+}
+
+.list {
+    vertical-align: top;
+    height: 100%;
+
+    span {
+       
+        text-align: left;
+        
+    }
+
+    &.classes {
+        width : 100px;
+    }
+    &.names {
+        width : 200px;
+    }
+}

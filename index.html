@@ -2,14 +2,26 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Psy</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
+    <table id="main" cellspacing="0" cellpadding="0">
+      <tr height="1px"><td colspan="2">
+        <div class="select tests"></div>
+        <div class="select years"></div>
+      </td><td></td></tr>
+      <tr><td>
+        <div class="list classes"></div>
+      </td>
+      <td>
+        <div class="list names" size="1"></div>
+      </td>
+      <td>
+        <div class="workflow"></div>
+      </td>
+    </tr>
+    </table>
 
     <script>
       // You can also require other files to run in this process
